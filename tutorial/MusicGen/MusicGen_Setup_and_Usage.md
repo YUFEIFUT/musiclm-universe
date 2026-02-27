@@ -1,6 +1,6 @@
-# 第4章 主流音乐大模型介绍与调用
+# 第5章 主流音乐大模型介绍与调用
 
-## 4.2 MusicGen
+## 5.1 MusicGen 部署及使用
 
 MusicGen是Meta（原Facebook）于2023年发布的开源AI音乐创作工具。该项目采用单阶段自回归Transformer架构，能够根据**文本描述**或**音频提示**生成音乐。
 
@@ -100,4 +100,5 @@ wavfile.write("musicgen_out.wav", rate=sampling_rate, data=audio_values.numpy())
 ```
 
 ---
+
 
