@@ -24,7 +24,11 @@ cd diffrhythm2
 python -c "import torch; print(f'CUDA 可用: {torch.cuda.is_available()}')"
 ```
 
-**如果没有正确配置环境**，请参考 `DiffRhythm2_部署问题解决记录.md` 或运行：
+**如果没有正确配置环境**，请参考 `DiffRhythm2_部署问题解决记录.md` 
+
+[DiffRhythm2 部署问题解决记录](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/Diffrhythm2/Diffrhythm2%E9%83%A8%E7%BD%B2%E9%97%AE%E9%A2%98%E8%A7%A3%E5%86%B3%E8%AE%B0%E5%BD%95.md)
+
+或运行：
 
 ```bash
 # 安装核心依赖
