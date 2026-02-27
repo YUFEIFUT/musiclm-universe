@@ -38,19 +38,19 @@
 
 ### **二、Music 生成基础知识文档部分**
 
-[**第 4 章** 音乐生成大模型基础知识](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/Chapter4) *@王泊轩* 
+[**第 4 章** 音乐生成大模型基础知识](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/docs) *@王泊轩* 
 
 ### **三、开源音乐生成大模型部署使用及代码分析**
 
 [**第 5 章 Transformer** 音乐生成模型 **- MusicGen**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/MusicGen) *@林睿哲*
   
-- 5.1 MusicGen 部署及使用
-- 5.2 MusicGen 开源代码分析
+- [5.1 MusicGen 部署及使用](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/MusicGen/MusicGen_Setup_and_Usage.md)
+- [5.2 MusicGen 开源代码分析](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/MusicGen/MusicGen_Codebase_Analysis.md)
   
 [**第 6 章 Diffusion** 音乐生成模型 **- Diffrhythm2**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/Diffrhythm2) *@刘秋杰*
 
-- 6.1 Diffrhythm2 部署及使用
-- 6.2 Diffrhythm2 开源代码分析
+- [6.1 Diffrhythm2 部署及使用](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/Diffrhythm2/DiffRhythm2_Setup_and_Usage.md)
+- [6.2 Diffrhythm2 开源代码分析](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/Diffrhythm2/DiffRhythm2_Codebase_Analysis.md)
   
 [**第 7 章 Dual-track LM** 音乐生成模型 **- SongGeneration**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/SongGeneration) *@* 
 
