@@ -1,6 +1,6 @@
 # musiclm-universe | 音乐生成模型原理、项目实战与优化框架
 
-## 项目简介
+###  项目简介
 **musiclm-universe** 是一个系统化讲解 **音乐生成语言模型（Music Language Model, MusicLM）** 的开源教程项目。
 
 随着大语言模型的发展，音乐生成模型正从 MIDI 建模走向端到端纯音频生成，形成 Transformer、Diffusion、Hybrid 等多种技术路线。
@@ -24,13 +24,13 @@
 该方法受到 “统一音频语言模型（UALM）” 思路启发，采用更轻量、可复现的工程路径，在中等规模数据下实现显著提升。
 
 
-## 项目受众
+###  项目受众
 
 - 对 AI 音乐生成 感兴趣的开发者
 - 具备基本 LLM 基础的 AI 音乐爱好者
 
 
-## 目录
+###  目录
 
 | 章节                                                                                        | 分级内容                                      | 状态 |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
@@ -71,20 +71,27 @@
 
 该方法受到 “统一音频语言模型（UALM）” 思路启发，采用更轻量、可复现的工程路径，在中等规模数据下实现显著提升。
 
-## 参与贡献
+###  核心贡献者
+- 田佳铭-项目负责人
+- 王泊轩-核心贡献者
+- 林睿哲-核心贡献者
+- 刘秋杰-核心贡献者
 
-- 如果你发现了一些问题，可以提Issue进行反馈，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你想参与贡献本项目，可以提Pull request，如果提完没有人回复你可以联系[保姆团队](https://github.com/datawhalechina/DOPMC/blob/main/OP.md)的同学进行反馈跟进~
-- 如果你对 Datawhale 很感兴趣并想要发起一个新的项目，请按照[Datawhale开源项目指南](https://github.com/datawhalechina/DOPMC/blob/main/GUIDE.md)进行操作即可~
+### 如何贡献
+我们是一个开放的开源社区，欢迎任何形式的贡献！
+- 🐛 <strong>报告 Bug</strong> - 发现内容或代码问题，请提交 Issue
+- 💡 <strong>提出建议</strong> - 对项目有好想法，欢迎发起讨论
+- 📝 <strong>完善内容</strong> - 帮助改进教程，提交你的 Pull Request
+- ✍️ <strong>分享实践</strong> - 在"社区贡献精选"中分享你的学习笔记和项目
 
-## 关注我们
+### 关注我们
 
 <div align=center>
 <p>扫描下方二维码关注公众号：Datawhale</p>
 <img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
 </div>
 
-## LICENSE
+### LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
 
