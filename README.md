@@ -1,5 +1,5 @@
 <div align=center>
-<img src="https://github.com/minigenepig/minigenepig/blob/main/images/pic.jpg" width = "1000">
+<img src="https://github.com/minigenepig/minigenepig/blob/main/images/musiclmuniverse.jpg" width = "1000">
 </div>
 
 ## **musiclm-universe** | 音乐生成模型原理、项目实战与优化框架
