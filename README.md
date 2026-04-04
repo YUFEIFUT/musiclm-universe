@@ -83,20 +83,11 @@
 
 ### 如何贡献
 我们是一个开放的开源社区，欢迎任何形式的贡献！
-- 🐛 <strong>报告 Bug</strong> - 发现内容或代码问题，请提交 Issue
-- 💡 <strong>提出建议</strong> - 对项目有好想法，欢迎发起讨论
-- 📝 <strong>完善内容</strong> - 帮助改进教程，提交你的 Pull Request
-- ✍️ <strong>分享实践</strong> - 在"社区贡献精选"中分享你的学习笔记和项目
-
-### 关注我们
-
-<div align=center>
-<p>扫描下方二维码关注公众号：Datawhale</p>
-<img src="https://raw.githubusercontent.com/datawhalechina/pumpkin-book/master/res/qrcode.jpeg" width = "180" height = "180">
-</div>
+- 报告 Bug - 发现内容或代码问题，请提交 Issue
+- 提出建议 - 对项目有好想法，欢迎发起讨论
+- 完善内容 - 帮助改进教程，提交你的 Pull Request
+- 分享实践 - 在"社区贡献精选"中分享你的学习笔记和项目
 
 ### LICENSE
 
 <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/"><img alt="知识共享许可协议" style="border-width:0" src="https://img.shields.io/badge/license-CC%20BY--NC--SA%204.0-lightgrey" /></a><br />本作品采用<a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/4.0/">知识共享署名-非商业性使用-相同方式共享 4.0 国际许可协议</a>进行许可。
-
-*注：默认使用CC 4.0协议，也可根据自身项目情况选用其他协议*
