@@ -13,6 +13,7 @@
   <p><em> <strong>MusicLM-Universe：</strong>系统化讲解音乐生成语言模型（Music Language Model）的开源教程项目，兼顾理论基础、实践部署与进阶优化，助力开发者从入门到精通音乐生成技术</em></p>
   <img src="https://img.shields.io/github/stars/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub stars"/>
   <img src="https://img.shields.io/github/forks/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub forks"/>
+  <img src="https://img.shields.io/github/watchers/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub watchers"/>
   <a href="https://github.com/datawhalechina/musiclm-universe"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
   <a href="https://datawhalechina.github.io/musiclm-universe/"><img src="https://img.shields.io/badge/Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
 </div>
@@ -74,18 +75,18 @@ pip install -r requirements.txt
 
 本部分聚焦基础实现，通过 Notebook 演示从数据到生成的完整流程，帮助建立对 MusicLM 的核心认知。
 
-音乐数据表示：介绍波形、频谱、梅尔谱等音频表示方式，以及基础预处理流程。
-音频 Tokenizer 原理：讲解如何将连续音频转为离散 token，并对比不同方法特点。
-Music Transformer 建模：基于 Transformer 构建音乐生成模型，理解其在时序建模中的应用。
-训练与生成流程：完整演示训练与推理流程，帮助模型实现可用的音乐生成能力。
+- 音乐数据表示：介绍波形、频谱、梅尔谱等音频表示方式，以及基础预处理流程。
+- 音频 Tokenizer 原理：讲解如何将连续音频转为离散 token，并对比不同方法特点。
+- Music Transformer 建模：基于 Transformer 构建音乐生成模型，理解其在时序建模中的应用。
+- 训练与生成流程：完整演示训练与推理流程，帮助模型实现可用的音乐生成能力。
 
 #### 第二部分：开源音乐生成模型部署实践与代码分析
 
 本部分面向工程实践，围绕主流开源模型进行部署与源码拆解。
 
-MusicGen：理解其架构与生成机制，实现快速部署并分析关键模块。
-Diffrhythm2：关注轻量化与高效生成，掌握低资源环境下的使用方式。
-ACE-Step：侧重风格生成与节奏控制，对比不同模型的适用场景。
+- MusicGen：理解其架构与生成机制，实现快速部署并分析关键模块。
+- Diffrhythm2：关注轻量化与高效生成，掌握低资源环境下的使用方式。
+- ACE-Step：侧重风格生成与节奏控制，对比不同模型的适用场景。
 
 #### 第三部分：进阶：音乐生成优化框架实践（开发中）
 
@@ -93,9 +94,9 @@ ACE-Step：侧重风格生成与节奏控制，对比不同模型的适用场景
 
 核心思路为三阶段优化：
 
-SFT（分布对齐）：通过高质量数据微调模型，提高语义一致性
-DPO（偏好优化）：基于偏好数据优化生成质量与审美表现
-Reasoning（可选）：引入生成前规划，增强结构性与可控性
+- SFT（分布对齐）：通过高质量数据微调模型，提高语义一致性
+- DPO（偏好优化）：基于偏好数据优化生成质量与审美表现
+- Reasoning（可选）：引入生成前规划，增强结构性与可控性
 
 #### 第四部分：进阶：音乐生成与音效融合实践（开发中）
 
@@ -105,12 +106,12 @@ Reasoning（可选）：引入生成前规划，增强结构性与可控性
 
 模型组合：MusicGen + AudioLDM 2
 音频融合优化：
-时间对齐（长度匹配）
-淡入淡出（提升自然度）
-混音参数学习（自动 gain / EQ / reverb）
-伪标签构建（无需人工标注）
+- 时间对齐（长度匹配）
+- 淡入淡出（提升自然度）
+- 混音参数学习（自动 gain / EQ / reverb）
+- 伪标签构建（无需人工标注）
 
-目标是从“生成音乐”走向“生成完整声音场景”。
+目标是从生成音乐走向生成完整声音场景。
 
 ## 如何学习 
 
