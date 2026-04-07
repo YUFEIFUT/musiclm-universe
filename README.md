@@ -1,40 +1,51 @@
-<div align=center>
-<img src="https://github.com/minigenepig/minigenepig/blob/main/images/111.jpg" width = "1000">
+<div align="right">
+  <a href="./README_EN.md">English</a> | 中文
 </div>
 
-## **musiclm-universe** | 音乐生成模型原理、项目实战与优化框架
+<div align='center'>
+  <img src="https://github.com/minigenepig/minigenepig/blob/main/images/111.jpg" alt="alt text" width="100%">
+  <h1>musiclm-universe</h1>
+  <h3>音乐生成模型原理、优化与项目实战</h3>
+  <div align="center">
+  <a href="https://trendshift.io/repositories/15520" target="_blank">
+  </a>
+  </div>
+  <p><em> <strong>MusicLM-Universe：</strong>系统化讲解音乐生成语言模型（Music Language Model）的开源教程项目，兼顾理论基础、实践部署与进阶优化，助力开发者从入门到精通音乐生成技术</em></p>
+  <img src="https://img.shields.io/github/stars/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub stars"/>
+  <img src="https://img.shields.io/github/forks/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub forks"/>
+  <a href="https://github.com/datawhalechina/musiclm-universe"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
+  <a href="https://datawhalechina.github.io/musiclm-universe/"><img src="https://img.shields.io/badge/Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
+</div>
 
-###  项目简介
-**musiclm-universe** 是一个系统化讲解 **音乐生成语言模型（Music Language Model, MusicLM）** 的开源教程项目。
+---
 
-随着大语言模型的发展，音乐生成模型正从 MIDI 建模走向端到端纯音频生成，形成 Transformer、Diffusion、Hybrid 等多种技术路线。
+## 项目介绍
 
-本项目重新梳理了 MusicLM 的完整知识体系，我们将音乐视为一种可建模的语言，深入解析：
+随着 AI 生成技术的迭代，音乐生成语言模型（Music Language Model）已成为音频领域的研究与应用热点。本项目旨在搭建一个从基础到进阶的完整学习路径，带领学习者掌握音乐生成的核心原理、部署方法与优化思路，实现从“使用模型”到“优化模型、融合应用”的进阶。
 
-- 音乐数据表示
-- 音频 Tokenizer 原理
-- Music Transformer 建模
-- 训练与生成流程实现
-- 主流开源音乐生成模型（MusicGen / Diffrhythm2 / ACE-Step）部署与源码分析
-
-通过 Notebook 实现，文档讲解和开源模型源码分析，我们希望帮助读者建立音乐大模型如何被构建的完整技术流程。
-
-同时，本项目基于 Meta 的 MusicGen，构建了一个结合 SFT（Supervised Fine-Tuning） 与 DPO（Direct Preference Optimization） 的音乐生成优化框架，旨在提升：
-
-- 指令遵循能力（Instruction Following）
-- 音频质量与审美（Audio Quality & Aesthetics）
-- 生成前规划能力（Optional: Reasoning）
-
-该方法受到 “统一音频语言模型（UALM）” 思路启发，采用更轻量、可复现的工程路径，在中等规模数据下实现显著提升。
+项目聚焦 MusicLM 相关技术，覆盖数据表示、模型部署、优化框架及多模块融合，以实战为核心，配套相关代码演示，适合有基础Python编程能力、对AI音乐生成感兴趣的开发者、学生及自学者。
 
 
-###  项目受众
+####  在线文档：https://datawhalechina.github.io/musiclm-universe/
 
-- 对 AI 音乐生成 感兴趣的开发者
-- 具备基本 LLM 基础的 AI 音乐爱好者
+本项目内容按模块逐步推进，可直接克隆仓库，结合Notebook演示与代码示例，快速上手实践。
+```bash
+
+git clone https://github.com/your-username/musiclm-universe.git
+cd musiclm-universe
+pip install -r requirements.txt
+
+```
+
+#### 项目收获：
+
+- 🔍 掌握音乐数据表示、音频Tokenizer、Music Transformer核心原理
+- 🏗️ 实践主流开源音乐生成模型（MusicGen / Diffrhythm2 / ACE-Step）的部署与源码解读
+- ⚙️ 了解MusicGen的SFT+DPO+Reasoning优化思路，掌握音乐生成优化框架核心逻辑
+- 🛠️ 探索音乐生成与音效融合的实践方法，实现更丰富的音频输出
 
 
-###  目录
+##  内容目录
 
 | 章节                                                                                        | 分级内容                                      | 状态 |
 | ------------------------------------------------------------------------------------------- | --------------------------------------------- | ---- |
@@ -47,39 +58,72 @@
 | [第四章 **Transformer** 架构模型应用 **- MusicGen**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/MusicGen)                 | [**4.1 MusicGen** 部署及使用](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/MusicGen/MusicGen_Setup_and_Usage.md) <br> [**4.2 MusicGen** 开源代码分析](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/MusicGen/MusicGen_Codebase_Analysis.md)  | ✅    | 
 | [第五章 **Diffusion** 架构模型应用 **- Diffrhythm2**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/Diffrhythm2) | [**5.1 Diffrhythm2** 部署及使用](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/Diffrhythm2/DiffRhythm2_Setup_and_Usage.md) <br> [**5.2 Diffrhythm2** 开源代码分析](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/Diffrhythm2/DiffRhythm2_Codebase_Analysis.md)   | ✅    |
 | [第六章 **Transformer & Diffusion** 架构模型应用 **- ACE-Step**](https://github.com/minimum-generated-pig/musiclm-universe/tree/main/tutorial/ACE-Step)                             | [**6.1 ACE-Step** 部署及使用](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/ACE-Step/ACE-Step_Setup_and_Usage.md) <br> [**6.2 ACE-Step 1.5** 开源代码分析](https://github.com/minimum-generated-pig/musiclm-universe/blob/main/tutorial/ACE-Step/ACE-Step_Codebase_Analysis.md) | ✅    |
-| <strong>第三部分 • 进阶：音乐生成优化框架实践：<br> **MusicGen（SFT）+ DPO + Reasoning** </strong>                                                     |              |
+| <strong>第三部分 • 进阶：音乐生成优化框架实践：<br> **（MusicGen）SFT + DPO + Reasoning** </strong>                                                     |              |
 | [第七章 **SFT：** 分布对齐]                               | 高质量的文本-音频对微调 MusicGen                            | 进行中  |
 | [第八章 **DPO：** 偏好优化]                              | 构建偏好对，优化模型生成                         |  进行中  |
-| [第九章 **Reasoning**]                     | 生成前推理，使模型具备音乐规划能力                      |  进行中   |
-| [第十章 评估]                   | 核心指标、基准测试与评估框架                  |  进行中   |
-| <strong>第四部分 • 进阶：音乐音效生成与智能混音实践：<br> **MusicSFX-Fusion** </strong>                                                     |              |
-| [第十一章]                           |                             | 进行中  |
-| [第十二章]                            |                          |  进行中  |
-| [第十三章]                    |                       |  进行中   |
-| [第十四章]                   |                   |  进行中   |
+| [第九章 **Reasoning：** 音乐结构规划]                     | 生成前推理，增强音乐结构性                      |  进行中   |
+| <strong>第四部分 • 进阶：音乐生成与音效融合实践：<br> **MusicSFX-Fusion** </strong>                                                     |              |
+| [第十章 音乐与音效生成]                           |                             | 进行中  |
+| [第十一章 智能混音策略学习]                            |训练混音策略模型                          |  进行中  |
+| [第十二章 音效融合及可视化]                    |Gradio 搭建前端应用                       |  进行中   |
 
 
-### MusicGen-DPO 音乐生成优化框架构建：MusicGen（SFT）+ DPO + Reasoning 偏好优化提升音乐生成
+## 各部分详细介绍
 
-**项目核心方法：**
+#### 第一部分：音乐生成模型完整实现流程（Notebook演示）
 
-整个系统由三阶段组成：
+本部分聚焦基础实现，通过 Notebook 演示从数据到生成的完整流程，帮助建立对 MusicLM 的核心认知。
 
-1、SFT：分布对齐（Supervised Fine-Tuning）
+音乐数据表示：介绍波形、频谱、梅尔谱等音频表示方式，以及基础预处理流程。
+音频 Tokenizer 原理：讲解如何将连续音频转为离散 token，并对比不同方法特点。
+Music Transformer 建模：基于 Transformer 构建音乐生成模型，理解其在时序建模中的应用。
+训练与生成流程：完整演示训练与推理流程，帮助模型实现可用的音乐生成能力。
 
-使用高质量的文本-音频对（Rich Caption）对 MusicGen 进行微调，使模型适应目标数据分布。
+#### 第二部分：开源音乐生成模型部署实践与代码分析
 
-2、DPO：偏好优化（Preference Optimization）
+本部分面向工程实践，围绕主流开源模型进行部署与源码拆解。
 
-通过构建 (prompt, chosen, rejected) 偏好对，优化模型生成更符合文本语义（CLAP）、更符合人类审美（Aesthetic）
+MusicGen：理解其架构与生成机制，实现快速部署并分析关键模块。
+Diffrhythm2：关注轻量化与高效生成，掌握低资源环境下的使用方式。
+ACE-Step：侧重风格生成与节奏控制，对比不同模型的适用场景。
 
-并引入 Adaptation 阶段（解决分布偏移）和 CE 正则（稳定训练）
+#### 第三部分：进阶：音乐生成优化框架实践（开发中）
 
-3、Reasoning（可选）
+本部分将构建基于 MusicGen 的优化框架，提升生成质量与可控性。
 
-引入“生成前推理”机制，使模型具备音乐结构规划能力和更强 controllability。
+核心思路为三阶段优化：
 
-该方法受到 “统一音频语言模型（UALM）” 思路启发，采用更轻量、可复现的工程路径，在中等规模数据下实现显著提升。
+SFT（分布对齐）：通过高质量数据微调模型，提高语义一致性
+DPO（偏好优化）：基于偏好数据优化生成质量与审美表现
+Reasoning（可选）：引入生成前规划，增强结构性与可控性
+
+#### 第四部分：进阶：音乐生成与音效融合实践（开发中）
+
+本部分探索音乐生成的应用层，构建 Music + SFX 的完整生成系统。
+
+整体围绕三个模块展开：音乐生成、环境音生成、音频合成。
+
+模型组合：MusicGen + AudioLDM 2
+音频融合优化：
+时间对齐（长度匹配）
+淡入淡出（提升自然度）
+混音参数学习（自动 gain / EQ / reverb）
+伪标签构建（无需人工标注）
+
+目标是从“生成音乐”走向“生成完整声音场景”。
+
+## 如何学习 
+
+MusicLM-Universe 是一个兼顾理论与实践的项目，它的核心并不在于理解模型细节，而在于建立一套完整的音乐生成系统认知。因此，我们更推荐你以构建系统的视角来学习，而不是单纯阅读内容。 
+
+在学习路径上，你可以从第一部分入手，通过 Notebook 逐步理解音乐是如何被表示、编码并最终生成的。这一阶段的重点不在于推导复杂公式，而在于真正理解音乐如何被模型理解，亲自运行代码、修改参数，观察生成结果的变化。 
+
+进入第二部分时，学习重点将从原理转向工程。你会接触到真实可用的开源模型，并理解它们是如何被设计与实现的。建议在这一阶段多做对比与拆解，思考不同模型在生成质量、效率和可控性上的取舍。 
+
+第三部分与第四部分则更偏向“系统构建”。在这一阶段，思考如何优化生成效果，以及如何将多个模型组合成一个完整应用。可以尝试根据自己的需求修改生成逻辑，甚至设计属于自己的优化策略。 
+
+整个学习过程中，最重要的一点是：一定要动手实践。当你完成全部内容后，你将不仅理解 MusicLM，更具备设计和构建音乐生成系统的能力。
+
 
 ###  核心贡献者
 - 田佳铭-项目负责人
