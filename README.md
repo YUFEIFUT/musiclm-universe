@@ -1,9 +1,9 @@
 <div align="right">
-  <a href="./README_en.md">Eng</a> | 中文
+  简体中文 | <a href="./README_en.md">Eng</a>
 </div>
 
 <div align='center'>
-  <img src="https://github.com/minigenepig/minigenepig/blob/main/images/111.jpg" alt="alt text" width="100%">
+  <img src="https://github.com/datawhalechina/musiclm-universe/blob/main/docs/images/MusicLM-Universe.jpg" alt="alt text" width="100%">
   <h1>musiclm-universe</h1>
   <h3>音乐生成模型原理、优化与项目实战</h3>
   <div align="center">
