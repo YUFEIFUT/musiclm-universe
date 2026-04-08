@@ -1,5 +1,5 @@
 <div align="right">
-  <a href="./README_EN.md">Eng</a> | 中文
+  <a href="./README_en.md">Eng</a> | 中文
 </div>
 
 <div align='center'>
@@ -15,7 +15,7 @@
   <img src="https://img.shields.io/github/forks/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub forks"/>
   <img src="https://img.shields.io/github/watchers/datawhalechina/musiclm-universe?style=flat&logo=github" alt="GitHub watchers"/>
   <a href="https://github.com/datawhalechina/musiclm-universe"><img src="https://img.shields.io/badge/GitHub-Project-blue?style=flat&logo=github" alt="GitHub Project"></a>
-  <a href="https://datawhalechina.github.io/musiclm-universe/"><img src="https://img.shields.io/badge/Online%20Reading-green?style=flat&logo=gitbook" alt="Online Reading"></a>
+  <a href="https://datawhalechina.github.io/musiclm-universe/"><img src="https://img.shields.io/badge/Online%20Reading-grey?style=flat&logo=gitbook" alt="Online Reading"></a>
 </div>
 
 ---
